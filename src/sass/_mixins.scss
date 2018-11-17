@@ -75,3 +75,7 @@ $root-context: 16;
     url("/fonts/#{$fontFileName}.woff") format("woff");
   }
 }
+
+@function scale($number) {
+  @return $number / 3 + px;
+}
