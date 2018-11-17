@@ -1,0 +1,35 @@
+body {
+  font-family: $montserrat;
+  font-family: $roboto;
+  font-family: $robotoSlab;
+  font-weight: $light;
+  font-weight: $bold;
+  margin: 0;
+  padding: 0;
+}
+
+.first {
+  font-family: $montserrat;
+  font-weight: normal;
+}
+
+.third {
+  font-family: $roboto;
+  font-weight: $light;
+}
+
+.fourth {
+  font-family: $robotoSlab;
+
+  font-weight: normal;
+}
+
+.fifth {
+  font-family: $robotoSlab;
+  font-weight: $light;
+}
+
+.sixth {
+  font-family: $robotoSlab;
+  font-weight: $bold;
+}
