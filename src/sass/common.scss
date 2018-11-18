@@ -1,35 +1,24 @@
 body {
+  color: $mainColor;
   font-family: $montserrat;
-  font-family: $roboto;
-  font-family: $robotoSlab;
-  font-weight: $light;
-  font-weight: $bold;
+  font-size: scale(41);
+  line-height: 1.2;
   margin: 0;
   padding: 0;
 }
 
-.first {
-  font-family: $montserrat;
-  font-weight: normal;
+.container {
+  margin: 0 auto;
+  max-width: scale(2476);
+  padding: scale(60);
 }
 
-.third {
-  font-family: $roboto;
-  font-weight: $light;
+.resume {
+  border: 4px solid #252525;
+  padding: scale(150) scale(80) scale(100);
+
 }
 
-.fourth {
-  font-family: $robotoSlab;
-
-  font-weight: normal;
-}
-
-.fifth {
-  font-family: $robotoSlab;
-  font-weight: $light;
-}
-
-.sixth {
-  font-family: $robotoSlab;
-  font-weight: $bold;
+hr {
+  background-color: $black;
 }

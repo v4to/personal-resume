@@ -9,21 +9,47 @@
         <link rel = "stylesheet" href = "style/style.min.css" type = "text/css">
     </head>
     <body>
+
         <div style = "display: none">
             <include src = "dist/img/sprite.svg"></include>
         </div>
-        <p class = "first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem iusto natus necessitatibus nemo. Ad doloribus exercitationem facere
-            inventore
-            placeat porro sunt velit. Dolor?</p>
-        <p class = "third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolores ea explicabo in pariatur quibusdam sint sit tempora? Aut
-            id
-            nostrum
-            sunt vel.</p>
-        <p class = "fourth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolores ea explicabo in pariatur quibusdam sint sit tempora? Aut
-            id
-            nostrum
-            sunt vel.</p>
-        <p class = "fifth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolores ea explicabo in pariatur quibusdam sint sit tempora? Aut
-        <p class = "sixth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolores ea explicabo in pariatur quibusdam sint sit tempora? Aut
+        <div class = "container">
+            <div class = "resume">
+                <section class = "resume-title">
+                    <h1 class = "resume-title__name">Andrii Yehortsev</h1>
+                    <p class = "resume-title__position">Front-end developer</p>
+                </section>
+                <ul class = "resume-contacts">
+                    <li class = "resume-contacts__item">
+                        <svg class = "resume-contacts__icon">
+                            <use xlink:href = "#icon-github"></use>
+                        </svg>
+                        Github:
+                        <p class = "resume-contacts__description">
+                            <a class = "resume-contacts__link" href = "https://github.com/v4to" target = "_blank">https://github.com/v4to</a>
+                        </p>
+                    </li>
+                    <li class = "resume-contacts__item">
+                        <svg class = "resume-contacts__icon">
+                            <use xlink:href = "#icon-phone"></use>
+                        </svg>
+                        Phone:
+                        <p class = "resume-contacts__description">
+                            +380993535143
+                        </p>
+                    </li>
+                    <li class = "resume-contacts__item">
+                        <svg class = "resume-contacts__icon">
+                            <use xlink:href = "#icon-email"></use>
+                        </svg>
+                        Email:
+                        <p class = "resume-contacts__description">
+                            <a class = "resume-contacts__link" href = "mailto:name@mydomain.com">andrii.yehortsev@gmail.com</a>
+                        </p>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
     </body>
 </html>

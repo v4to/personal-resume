@@ -1,0 +1,43 @@
+.resume-contacts {
+  display: flex;
+  margin-bottom: scale(86);
+}
+
+.resume-contacts__item {
+  align-items: center;
+  display: flex;
+  font-family: $robotoSlab;
+  font-size: 10px;
+  font-weight: $bold;
+}
+
+.resume-contacts__item + .resume-contacts__item {
+  border-left: 1px solid $black;
+  margin-left: 35px;
+  padding-left: scale(45);
+}
+
+.resume-contacts__title {
+  font-weight: $bold;
+}
+
+.resume-contacts__link,
+.resume-contacts__description {
+  color: $mainColor;
+  font-family: $montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  margin-left: 2px;
+}
+
+.resume-contacts__link:hover {
+  color: #868588;
+  text-decoration: underline;
+}
+
+.resume-contacts__icon {
+  height: 15px;
+  margin-right: 4px;
+  width: 15px;
+}
+

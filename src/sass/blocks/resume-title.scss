@@ -1,0 +1,19 @@
+.resume-title {
+  margin-bottom: 30px;
+}
+
+.resume-title__name {
+  font-family: $robotoSlab;
+  font-size: scale(116);
+  font-weight: $bold;
+  line-height: scale(114);
+}
+
+.resume-title__position {
+  font-family: $robotoSlab;
+  font-size: scale(58);
+  font-weight: $light;
+  line-height: scale(82);
+
+}
+
