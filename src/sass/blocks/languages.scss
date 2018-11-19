@@ -1,0 +1,29 @@
+.languages {
+  //margin-bottom: 20px;
+}
+
+.languages__heading {
+  font-family: $robotoSlab;
+  font-weight: $bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.languages__title {
+  border-right: 1px solid $black;
+  font-family: $montserrat;
+  font-size: scale(42);
+  font-weight: bold;
+  margin-bottom: auto;
+  width: 243px;
+}
+
+.languages__item {
+  display: flex;
+  margin-bottom: 10px;
+  //justify-content: space-between;
+}
+
+.languages__level {
+  padding-left: 25px;
+}
