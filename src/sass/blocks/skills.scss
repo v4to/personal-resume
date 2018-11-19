@@ -1,0 +1,43 @@
+.skills {
+  margin-bottom: 28px;
+}
+.skills__heading {
+  font-family: $robotoSlab;
+  font-weight: $bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.skills__title {
+  border-right: 1px solid $black;
+  font-family: $montserrat;
+  font-size: scale(42);
+  font-weight: bold;
+  margin-bottom: auto;
+  width: 243px;
+}
+
+.skills__item {
+  display: flex;
+  margin-bottom: 10px;
+  //justify-content: space-between;
+}
+
+.skills__group-list {
+  //display: flex;
+
+  padding-left: 25px;
+}
+
+.skills__group-item {
+  display: inline-block;
+}
+
+.skills__group-item::after {
+  content: ",";
+
+}
+
+.skills__group-item:last-child::after {
+  content: ""
+}
