@@ -1,0 +1,83 @@
+.experience {
+  display: flex;
+  //justify-content: space-between;
+  flex-direction: column;
+  margin-top: scale(75);
+}
+
+.experience__heading {
+  font-family: $robotoSlab;
+  font-weight: $bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.experience__dates-worked {
+  border-right: 1px solid $black;
+  font-family: $montserrat;
+  font-size: scale(42);
+  font-weight: bold;
+  margin-bottom: auto;
+  width: 243px;
+}
+
+.experience__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job {
+  width: 493px;
+}
+
+.job__company-name {
+  font-family: $robotoSlab;
+  font-size: scale(42);
+  font-weight: $bold;
+  text-transform: uppercase;
+}
+
+.job__position {
+  font-family: $robotoSlab;
+  font-size: scale(42);
+  font-weight: $light;
+}
+
+.duties-list {
+  list-style: initial;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.duties-list__item {
+  font-family: $montserrat;
+  font-size: scale(42);
+  line-height: scale(57);
+}
+
+// Using pseudo element to decrease gap between bullet and li
+.duties-list__item::before {
+  content: "";
+  display: inline-block;
+  margin-left: -10px;
+}
+
+.job__key-achievement {
+  margin-top: 10px;
+}
+
+.key-achievement__heading {
+  font-family: $montserrat;
+  font-weight: 600;
+}
+
+@media print {
+  .experience__dates-worked {
+    width: 170px;
+  }
+
+  .job {
+    padding-left: 15px;
+  }
+
+}
